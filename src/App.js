@@ -4,6 +4,7 @@ import './App.css';
 import React, {Fragment} from 'react';
 import {getSpainData} from './Apicalls'
 import {useState, useEffect} from 'react';
+import RadarCovid from "./componentes/radarchart";
 
 
 const App = () => {
@@ -26,7 +27,7 @@ const App = () => {
         <Fragment>
             <div className="contenedor">
                 <h1>
-                   Covid DashBoard
+                    Covid DashBoard Elis, Gabriela y Facundo
                 </h1>
             </div>
             <div className="casosactivos">
@@ -36,17 +37,17 @@ const App = () => {
                 <div className="totalspain">
                     {spainData && <div><h1> Total Cases Spain {totalCases()} </h1></div>}
 
-            </div>
+                </div>
 
-        </div>
-    <div className="spaindeads">
-        <h1>LAST DAY DEADS SPAIN {deadMonth}</h1>
-    </div>
-    <div className="pobreza">
-        <h1>POBREZA</h1>
-    </div>
-</Fragment>
-);
+            </div>
+            <div className="spaindeads">
+                <h1>LAST DAY DEADS SPAIN {deadMonth}</h1>
+            </div>
+            <div className="pobreza">
+                <RadarCovid />
+            </div>
+        </Fragment>
+    );
 }
 
 export default App;
