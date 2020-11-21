@@ -1,0 +1,48 @@
+body {background-color: rgb(235, 228, 228)}
+
+.contenedor {
+    position:relative;
+    height: 24vh;
+    width:100%;
+    color:rgb(8, 8, 8);
+    text-align: center;
+    background-color: rgb(235, 228, 228);
+}
+
+.casosactivos{
+    display: flex;
+    flex-direction: row;
+}
+
+.world {
+    background-color: rgb(155, 221, 155);
+    width: 50%;
+}
+
+.totalspain {
+    display: flex;
+    background-color: rgb(135, 135, 223);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin-left: 50%
+}
+
+.spaindeads {
+    display: flex;
+    background-color: rgb(233, 233, 109);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.pobreza{
+    display: flex;
+    background-color: rgb(223, 145, 190);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
