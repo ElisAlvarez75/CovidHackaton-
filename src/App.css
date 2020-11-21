@@ -9,24 +9,27 @@ body {background-color: rgb(235, 228, 228)}
     background-color: rgb(235, 228, 228);
 }
 
-.casosactivos{
+.casosactivos {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+
 }
 
 .world {
     background-color: rgb(155, 221, 155);
-    width: 50%;
+    width: 60%;
+    text-align: center;
 }
 
 .totalspain {
     display: flex;
     background-color: rgb(135, 135, 223);
-    width: 50%;
+    width: 60%;
     justify-content: center;
     align-items: center;
     height: 20vh;
-    margin-left: 50%
+
 }
 
 .spaindeads {
