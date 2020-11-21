@@ -18,8 +18,8 @@ In the project directory, you can run:
 
 ### `yarn start:frontend`
 
-Runs frontend of the app\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs frontend of the app\http://localhost:3000
+Open [](http://localhost:3000) to view it in the browser.
 
 ### `yarn start:server`
 
